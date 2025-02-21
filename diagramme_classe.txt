@@ -1,0 +1,85 @@
+@startuml
+
+class User{
+id : int
+name : varchar
+firstname : varchar
+email : varchar
+admin : boolean
+}
+
+class Recipe{
+id : int
+name : varchar
+category : varchar
+picture : varchar
+total_time : varchar
+cooking_time : varchar
+difficulty : varchar
+cost : varchar
+List<Ingredients>
+vegetarian : boolean
+lactose : boolean
+gluten : boolean
+halal : boolean
+alternative_ingredient : boolean
+List<RecipeSteps>
+List<Utensils>
+validate : boolean
+}
+
+class Diets{
+id : number
+name : varchar
+}
+
+class Tabs{
+id : number
+name : varchar
+}
+
+class MyRecipes{
+id : number
+id_user : User
+id_recipe : Recipe
+}
+
+class RecipeSteps{
+id : number
+text : varchar
+id_recipe : Recipe
+}
+
+class Ingredients{
+id : number
+name : varchar
+id_recipe : Recipe
+}
+
+class Utensils{
+id : number
+name : varchar
+id_recipe : Recipe
+}
+
+class Comments{
+id : number
+name : varchar
+note : number
+id_recipe : Recipe
+id_user : User
+}
+
+
+
+User *-- Comments
+User o-- Diets
+User o-- Tabs
+Diets --o Recipe
+Recipe *-- Comments
+Recipe *-- Utensils
+Recipe *-- Ingredients
+Recipe *-- RecipeSteps
+MyRecipes --* User
+MyRecipes --* Recipe
+@enduml

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "432071771632",
+    "project_id": "tastyrecipes-b133a",
+    "storage_bucket": "tastyrecipes-b133a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432071771632:android:88904dc12976a702d78935",
+        "android_client_info": {
+          "package_name": "fr.philippot.yannis.tasty_recipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432071771632-vnnui9e94k2au6lhtgsuod0175ajista.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.philippot.yannis.tasty_recipes",
+            "certificate_hash": "b5f80b19c5be820a7e03ddeddd9d14ae2985e1e4"
+          }
+        },
+        {
+          "client_id": "432071771632-ah814kgl9u8tkk2797vsdgsltoll35ti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ7Omx3AJXpV3YrawUFgrlyBR3uWwh6IA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432071771632-ah814kgl9u8tkk2797vsdgsltoll35ti.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "432071771632-og2up268scjhk9uak1mcrhkr3aefbrum.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tastyRecipes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
